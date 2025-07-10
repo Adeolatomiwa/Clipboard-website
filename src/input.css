@@ -39,4 +39,9 @@ h3 {
 
 h5 {
     @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
-  }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
