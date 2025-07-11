@@ -34,7 +34,7 @@ h3 {
 }
 
 .button-shape {
-    @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80;
+    @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80 transition hover:-translate-y-0.5;
 }
 
 h5 {
